@@ -5,6 +5,6 @@
 ## Características
 - Consultar el clima de cualquier ciudad.
 - Registrar automáticamente temperatura, descripción y fecha.
-- Visualizar el historial de temperaturas en un listado y, opcionalmente, en gráficos.
+- Visualizar el historial de temperaturas en un listado.
 - Compatible con Odoo 18.
 - Fácil instalación y configuración.
