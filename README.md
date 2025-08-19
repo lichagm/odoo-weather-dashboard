@@ -22,7 +22,7 @@
 API_KEY=tu_api_key_aqui
 
 Ejemplo:
-![env](screenshots/env.png)
+![env](weather_dashboard/screenshots/env.png)
 
 4. Actualizar la lista de aplicaciones en Odoo y buscar *weather_dashboard* para instalarlo.
 
@@ -30,9 +30,9 @@ Ejemplo:
 
 Vista tipo lista:
 
-![Lista](screenshots/list.png)
+![Lista](weather_dashboard/screenshots/list.png)
 
 Vista tipo formulario:
 
-![Formulario](screenshots/form.png)
+![Formulario](weather_dashboard/screenshots/form.png)
 
