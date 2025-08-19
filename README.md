@@ -8,3 +8,31 @@
 - Visualizar el historial de temperaturas en un listado.
 - Compatible con Odoo 18.
 - Fácil instalación y configuración.
+
+## Instalación
+1. Clonar el repositorio en la carpeta 'addons' de tu Odoo:
+```bash
+   git clone https://github.com/lichagm/odoo-weather-dashboard.git
+```
+2. Instalar dependencias de Python:
+```bash
+    pip install -r requirements.txt
+```
+3. Crea un archivo .env en la raíz del módulo con el siguiente contenido:
+API_KEY=tu_api_key_aqui
+
+Ejemplo:
+![env](screenshots/env.png)
+
+4. Actualizar la lista de aplicaciones en Odoo y buscar *weather_dashboard* para instalarlo.
+
+## Vistas del módulo
+
+Vista tipo lista:
+
+![Lista](screenshots/list.png)
+
+Vista tipo formulario:
+
+![Formulario](screenshots/form.png)
+

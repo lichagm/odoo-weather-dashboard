@@ -23,7 +23,6 @@
                 <sheet>
                     <group>
                         <field name="name"/>
-                        <field name="api_key"/>
                     </group>
                 </sheet>
                 <sheet>

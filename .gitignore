@@ -1,0 +1,23 @@
+# Archivos de entorno
+.env
+*.pyc
+__pycache__/
+
+# Logs de Odoo
+*.log
+
+# Archivos temporales
+*.swp
+*.swo
+
+# Configuración local de Odoo
+*.db
+*.sqlite
+*.dump
+
+# Carpeta de dependencias (si usas virtualenv)
+venv/
+.env.local
+
+# MacOS
+.DS_Store
