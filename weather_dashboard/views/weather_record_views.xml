@@ -1,0 +1,49 @@
+<odoo>
+    <record id="view_weather_record_list" model="ir.ui.view">
+        <field name="name">weather.record.list</field>
+        <field name="model">weather.record</field>
+        <field name="arch" type="xml">
+            <list string="Registros del Clima">
+                <field name="name"/>
+                <field name="temperature"/>
+                <field name="description"/>
+                <field name="last_update"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_weather_record_form" model="ir.ui.view">
+        <field name="name">weather.record.form</field>
+        <field name="model">weather.record</field>
+        <field name="arch" type="xml">
+            <form string="Registro del Clima">
+                <header>
+                    <button name="action_get_temperature" type="object" string="Actualizar Clima" class="btn-primary"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="api_key"/>
+                    </group>
+                </sheet>
+                <sheet>
+                    <group>
+                        <field name="temperature"/>
+                        <field name="description"/>
+                        <field name="last_update"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_weather_record" model="ir.actions.act_window">
+        <field name="name">Registros del Clima</field>
+        <field name="res_model">weather.record</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <!-- Menú -->
+    <menuitem id="menu_weather_root" name="Clima"/>
+    <menuitem id="menu_weather_records" name="Registros" parent="menu_weather_root" action="action_weather_record"/>
+</odoo>
