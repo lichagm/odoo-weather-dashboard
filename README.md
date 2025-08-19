@@ -19,7 +19,7 @@
     pip install -r requirements.txt
 ```
 3. Crea un archivo .env en la raíz del módulo con el siguiente contenido:
-API_KEY=tu_api_key_aqui
+API_WEATHER_KEY=tu_api_key_aqui
 
 Ejemplo:
 ![env](weather_dashboard/screenshots/env.png)
